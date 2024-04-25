@@ -1,2 +1,1 @@
-# 1️⃣ Desafio Classificador de nível de Herói
-#2️⃣ Calculadora de partidas Rankeadas
+Repositorio dedicado aos desafios de projeto do  Potencia Tech iFood Programacao do Zero
