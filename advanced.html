@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .top-links {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .top-links a {
+            margin-left: 15px;
+            text-decoration: none;
+            color: #1a73e8;
+        }
+        .top-links a:hover {
+            color: #0f59d1;
+            border-radius: 10px;
+            border:1px solid;
+            padding: 8px;
+        }
+        .advanced-search {
+            text-align: left;
+        }
+        input[type="text"] {
+            width: 400px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #1a73e8;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            display: flex;
+        
+        }
+        input[type="submit"]:hover {
+            background-color: #0f59d1;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-links">
+        <a href="index.html">Google Search</a>
+        <a href="images.html">Image Search</a>
+    </div>
+    <div class="advanced-search">
+        <h1>Google Advanced Search</h1>
+        <form action="https://www.google.com/search">
+            <input type="text" name="as_q" placeholder="All these words">
+            <br>
+            <input type="text" name="as_epq" placeholder="This exact word or phrase">
+            <br>
+            <input type="text" name="as_oq" placeholder="Any of these words">
+            <br>
+            <input type="text" name="as_eq" placeholder="None of these words">
+            <br>
+            <input type="submit" value="Advanced search">
+        </form>
+    </div>
+</body>
+</html>
